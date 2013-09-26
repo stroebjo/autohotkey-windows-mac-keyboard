@@ -90,6 +90,9 @@ F19::Run https://facebook.com
 ; Remap Windows + Tab to Alt + Tab.
 Lwin & Tab::AltTab
 
+; minimize windows
+#m::WinMinimize,a
+
 
 ; --------------------------------------------------------------
 ; OS X keyboard mappings for special chars
