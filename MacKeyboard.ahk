@@ -143,6 +143,10 @@ Lwin & Tab::AltTab
 ; Map Alt + N to ~
 !n::SendInput {~}
 
+; Map Alt + 3 to #
+!3::SendInput {#}
+
+
 
 ; --------------------------------------------------------------
 ; Custom mappings for special chars
