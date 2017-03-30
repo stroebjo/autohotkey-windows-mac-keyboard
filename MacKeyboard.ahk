@@ -148,11 +148,11 @@ Lwin & Tab::AltTab
 ; Custom mappings for special chars
 ; --------------------------------------------------------------
 
-#ö::SendInput {[} 
-#ä::SendInput {]} 
+;#ö::SendInput {[} 
+;#ä::SendInput {]} 
 
-^ö::SendInput {{} 
-^ä::SendInput {}} 
+;^ö::SendInput {{} 
+;^ä::SendInput {}} 
 
 
 ; --------------------------------------------------------------
