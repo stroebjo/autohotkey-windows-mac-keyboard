@@ -34,7 +34,7 @@ F12::SendInput {Volume_Up}
 ;LAlt::LWin ; add a semicolon in front of this line if you want to disable the windows key
 
 ; Eject Key
-F20::SendInput {Insert}
+;F20::SendInput {Insert} ; F20 doesn't show up on AHK anymore, see #3
 
 ; F13-15, standard windows mapping
 F13::SendInput {PrintScreen}
