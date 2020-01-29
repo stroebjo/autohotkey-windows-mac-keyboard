@@ -55,16 +55,16 @@ F19::Run https://facebook.com
 #s::^s
 
 ; Selecting
-#a::^a
+#a::Send, ^a
 
 ; Copying
-#c::^c
+#c::Send, ^c
 
 ; Pasting
-#v::^v
+#v::Send, ^v
 
 ; Cutting
-#x::^x
+#x::Send, ^x
 
 ; Opening
 #o::^o
