@@ -17,6 +17,15 @@
 SetTitleMatchMode 2
 SendMode Input
 
+; --------------------------------------------------------------
+; Mac-like screenshots in Windows (requires Windows 10 Snip & Sketch)
+; --------------------------------------------------------------
+
+; Capture entire screen with CMD/WIN + SHIFT + 3
+#+3::send #{PrintScreen}
+
+; Capture portion of the screen with CMD/WIN + SHIFT + 4
+#+4::#+s
 
 ; --------------------------------------------------------------
 ; media/function keys all mapped to the right option key
@@ -52,7 +61,7 @@ F19::Run https://facebook.com
 ; --------------------------------------------------------------
 
 ; Make Ctrl + S work with cmd (windows) key
-#s::^s
+#s::Send, ^s
 
 ; Selecting
 #a::Send, ^a
