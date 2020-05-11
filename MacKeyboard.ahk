@@ -76,7 +76,7 @@ F19::Run https://facebook.com
 #x::Send, ^x
 
 ; Opening
-#o::^o
+#o::Send ^o
 
 ; Finding
 #f::Send ^f
