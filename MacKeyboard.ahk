@@ -76,22 +76,22 @@ F19::Run https://facebook.com
 #x::Send, ^x
 
 ; Opening
-#o::^o
+#o::Send ^o
 
 ; Finding
 #f::Send ^f
 
 ; Undo
-#z::^z
+#z::Send ^z
 
 ; Redo
-#y::^y
+#y::Send ^y
 
 ; New tab
-#t::^t
+#t::Send ^t
 
 ; close tab
-#w::^w
+#w::Send ^w
 
 ; Close windows (cmd + q to Alt + F4)
 #q::Send !{F4}
