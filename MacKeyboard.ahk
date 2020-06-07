@@ -42,6 +42,11 @@ F12::SendInput {Volume_Up}
 ;LWin::LAlt
 ;LAlt::LWin ; add a semicolon in front of this line if you want to disable the windows key
 
+; Remap Windows + Left OR Right to enable previous or next web page
+; Use only if swapping left command/windows key with left alt
+;Lwin & Left::Send, !{Left}
+;Lwin & Right::Send, !{Right}
+
 ; Eject Key
 ;F20::SendInput {Insert} ; F20 doesn't show up on AHK anymore, see #3
 
